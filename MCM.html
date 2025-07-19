@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anzil's MiniCar Mart</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Barlow&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <h1>MAN miniCar mart</h1>
+    <h2>Drive your dream… in miniature!</h2>
+   <nav>
+  <a href="#home" id="nav-home">Home</a>
+  <a href="#shop" id="nav-shop">Shop</a>
+  <a href="#about" id="nav-about">About</a>
+  <a href="#cart" id="nav-cart">🛒</a>
+</nav>
+
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <p></p>
+  </section>
+
+  <!-- Filter & Sort -->
+<section class="filters">
+  <select id="filter-brand" class="filter-select">
+    <option value="all">All Brands</option>
+    <option value="HotWheels">HotWheels</option>
+    <option value="Matchbox">Matchbox</option>
+  </select>
+
+  <select id="sort-price" class="filter-select">
+    <option value="default">Sort by</option>
+    <option value="low-high">Price: Low to High</option>
+    <option value="high-low">Price: High to Low</option>
+  </select>
+</section>
+
+
+  <!-- Product Grid -->
+<section id="shop" class="product-grid">
+  <!-- Items will be inserted by JS -->
+</section>
+
+<!-- Full Cart Section -->
+<section id="cart" class="cart-section">
+  <h2>Your Cart</h2>
+  <ul id="cart-items"></ul>
+  <p>Total: $<span id="cart-total">0.00</span></p>
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="logo.png" alt="About Image">
+    </div>
+    <div class="about-details">
+      <h2>Contact Us</h2>
+      <p><strong>Name:</strong> Muhammed Ansil</p>
+      <p><strong>Email:</strong> anzilmarakkarn@gmail.com</p>
+      <p><strong>Phone:</strong> +91-9999999999</p>
+      <p><strong>Location:</strong> Kerala, India</p>
+    </div>
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
